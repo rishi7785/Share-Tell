@@ -1,0 +1,26 @@
+{
+  "name": "share_tell",
+  "description": "final project app",
+  "main": "server.js",
+  "authors": [
+    "Rishi Shukla"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "project",
+    "photo",
+    "journal"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.9",
+    "angular-ui-router": "^0.3.2"
+  }
+}

@@ -1,0 +1,26 @@
+<h2>Post</h2>
+<form method="POST" action="/post/save" enctype="application/x-www-form-urlencoded">
+    <input name="title" placeholder="title">
+    <input name="author" placeholder="author">
+
+<button type="submit">Submit</button>
+
+</form>
+
+
+<table border="1">
+    <tbody>
+        <tr>
+            <td>name</td>
+            <td>{{ data.name }}</td>
+        </tr>
+        <tr>
+            <td>value</td>
+            <td>{{ data.value }}</td>
+        </tr>
+        <tr>
+            <td>phrase</td>
+            <td>{{ data.phrase }}</td>
+        </tr>
+    </tbody>
+</table>

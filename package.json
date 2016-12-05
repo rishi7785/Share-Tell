@@ -1,0 +1,41 @@
+{
+  "name": "share_tell",
+  "version": "1.0.0",
+  "description": "final project app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "project",
+    "photo",
+    "journal"
+  ],
+  "author": "Rishi Shukla",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "bootstrap-router": "^0.1.1-a",
+    "connect-flash": "^0.1.1",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.14.2",
+    "handlebars": "^4.0.6",
+    "jquery": "^3.1.1",
+    "json-server": "^0.9.2",
+    "less": "^2.7.1",
+    "method-override": "^2.3.7",
+    "mongodb": "^2.2.12",
+    "mongoose": "^4.7.1",
+    "nodemon": "^1.11.0",
+    "req": "^0.1.4",
+    "res": "^0.4.0",
+    "session": "^0.1.0",
+    "typings": "^2.0.0"
+  },
+  "devDependencies": {}
+}
